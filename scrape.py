@@ -23,7 +23,7 @@ try:
     #to allow time to sign in
     element = WebDriverWait(web, 10).until(EC.presence_of_element_located((By.XPATH, "/html/body/header/div/nav/ul/li[7]")))
     
-    web.get('https://www.linkedin.com/feed/update/urn:li:activity:6696214933828354048/')
+    web.get('post-link')
     loadXPath='/html/body/div[7]/div[3]/div/div/div/div/div/section/div/div[6]/div/div[3]/div[3]/div/button/span'
     
     counter=0
